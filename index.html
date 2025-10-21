@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meißner &amp; Partner Handelsgesellschaft mbH</title>
+    <style>
+        :root {
+            --primary-color: #1d3557;
+            --secondary-color: #457b9d;
+            --accent-color: #a8dadc;
+            --light-bg: #f7f9fb;
+            --text-color: #1a1a1a;
+        }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: "Helvetica Neue", Arial, sans-serif;
+            color: var(--text-color);
+            background-color: var(--light-bg);
+            line-height: 1.6;
+            margin: 0;
+        }
+        header {
+            background-color: #ffffff;
+            border-bottom: 1px solid #e3e6ea;
+            padding: 2rem 1.5rem;
+        }
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+        .logo-placeholder {
+            display: inline-block;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--primary-color);
+        }
+        nav {
+            margin-top: 1.5rem;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+        }
+        nav a {
+            text-decoration: none;
+            color: var(--primary-color);
+            font-weight: 600;
+        }
+        section {
+            padding: 4rem 0;
+        }
+        h1, h2, h3 {
+            font-weight: 700;
+            margin-bottom: 1rem;
+            color: var(--primary-color);
+        }
+        p {
+            margin-bottom: 1rem;
+        }
+        .hero {
+            text-align: center;
+            padding-top: 5rem;
+            padding-bottom: 5rem;
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+        }
+        .hero p {
+            margin: 1rem auto;
+            max-width: 720px;
+            color: #3f4a56;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 2rem;
+        }
+        .card {
+            background-color: #ffffff;
+            padding: 2rem;
+            border: 1px solid #e3e6ea;
+            border-radius: 8px;
+        }
+        .card h3 {
+            margin-bottom: 0.75rem;
+        }
+        .highlight {
+            background-color: #ffffff;
+            border-left: 4px solid var(--secondary-color);
+            padding: 2rem;
+        }
+        .contact-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 1.5rem;
+        }
+        footer {
+            background-color: #ffffff;
+            border-top: 1px solid #e3e6ea;
+            padding: 2rem 0;
+            text-align: center;
+            font-size: 0.9rem;
+            color: #5a6470;
+        }
+        @media (max-width: 600px) {
+            nav ul {
+                justify-content: center;
+            }
+            .hero h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo-placeholder">Firmenlogo</div>
+            <nav>
+                <ul>
+                    <li><a href="#ueber-uns">Über uns</a></li>
+                    <li><a href="#leistungen">Leistungen</a></li>
+                    <li><a href="#branchen">Branchenkompetenzen</a></li>
+                    <li><a href="#kontakt">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Meißner &amp; Partner Handelsgesellschaft mbH</h1>
+                <p>Ihr verlässlicher Partner für den internationalen An- und Verkauf sowie Im- und Export von Fahrzeugen, Lebensmitteln, Baustoffen und hochwertigen Konsumgütern.</p>
+                <p>Sitz: Angerstr. 18, 06118 Halle (Saale)</p>
+            </div>
+        </section>
+
+        <section id="ueber-uns">
+            <div class="container highlight">
+                <h2>Unternehmensprofil</h2>
+                <p>Meißner &amp; Partner verbindet fundierte Marktkenntnis mit einem klaren Fokus auf Effizienz. Unser Team koordiniert komplexe Handelsprozesse und sorgt für transparente Abläufe vom ersten Kontakt bis zur finalen Lieferung.</p>
+                <p>Mit einem weit verzweigten Netzwerk bedienen wir Großhandel und Industrie gleichermaßen – stets mit Blick auf Qualität, Zuverlässigkeit und langfristige Partnerschaften.</p>
+            </div>
+        </section>
+
+        <section id="leistungen">
+            <div class="container">
+                <h2>Leistungsschwerpunkte</h2>
+                <div class="grid">
+                    <div class="card">
+                        <h3>Fahrzeuge</h3>
+                        <p>An- und Verkauf sowie Im- und Export von neuen und gebrauchten Fahrzeugen für gewerbliche und private Kunden.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Lebensmittel &amp; Getränke</h3>
+                        <p>Breites Sortiment für Großhandel und Lebensmittelindustrie, inklusive Verpackungen und Hilfsmittel – immer ohne erlaubnispflichtige Produkte.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Baustoffe</h3>
+                        <p>Zuverlässige Versorgung mit Baustoffen für Bauunternehmen und Handelspartner im In- und Ausland.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Parfum &amp; Kosmetik</h3>
+                        <p>Distribution ausgewählter Duft- und Pflegeprodukte mit Fokus auf Qualität, Markenvielfalt und Liefertreue.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="branchen">
+            <div class="container">
+                <h2>Branchenkompetenzen</h2>
+                <div class="grid">
+                    <div class="card">
+                        <h3>Großhandel &amp; Industrie</h3>
+                        <p>Strukturierte Prozesse und feste Ansprechpartner für Großabnehmer sowie maßgeschneiderte Logistiklösungen.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Internationale Märkte</h3>
+                        <p>Erfahrung in der Koordination internationaler Lieferketten und Sicherstellung reibungsloser Zollabwicklung.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Qualitätsmanagement</h3>
+                        <p>Kontinuierliche Prüfung der Warenqualität und sorgfältige Auswahl verlässlicher Hersteller und Lieferanten.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="kontakt">
+            <div class="container">
+                <h2>Kontakt</h2>
+                <div class="contact-info">
+                    <div>
+                        <h3>Adresse</h3>
+                        <p>Meißner &amp; Partner Handelsgesellschaft mbH<br>Angerstr. 18<br>06118 Halle (Saale)</p>
+                    </div>
+                    <div>
+                        <h3>Kontakt aufnehmen</h3>
+                        <p>Telefon: +49 (0) 345 123456<br>E-Mail: kontakt@meissner-partner.de</p>
+                    </div>
+                    <div>
+                        <h3>Geschäftszeiten</h3>
+                        <p>Montag – Freitag: 8:00 – 17:00 Uhr<br>Samstag: nach Vereinbarung</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Meißner &amp; Partner Handelsgesellschaft mbH. Alle Rechte vorbehalten.</p>
+        </div>
+    </footer>
+</body>
+</html>
