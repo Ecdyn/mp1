@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="logoTitle logoDesc">
+  <title id="logoTitle">Logo von Meißner &amp; Partner</title>
+  <desc id="logoDesc">Ein dunkles Monogramm mit den Buchstaben M und P auf einem weichen Verlaufshintergrund.</desc>
+  <defs>
+    <radialGradient id="bgGradient" cx="50%" cy="40%" r="75%">
+      <stop offset="0%" stop-color="#1c2a3a" stop-opacity="0.55" />
+      <stop offset="45%" stop-color="#1c2a3a" stop-opacity="0.65" />
+      <stop offset="100%" stop-color="#737a82" />
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#bgGradient)" />
+  <text x="50%" y="55%" text-anchor="middle" font-family="'Playfair Display', 'Times New Roman', serif" font-size="240" fill="#0b2038" letter-spacing="-18">
+    M&amp;P
+  </text>
+</svg>
